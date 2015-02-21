@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DIR=`pwd`
+
+if grep -q "raspberry-pi-tools" ~/.bashrc;
+then
+  echo "Already in PATH"
+else
+  echo "Added to PATH in .bashrc"
+  echo "export PATH=$PATH:$DIR" >> ~/.bashrc
+fi

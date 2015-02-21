@@ -1,11 +1,25 @@
 raspberry-pi-tools
 ==================
 
-Helpful Raspberry Pi Tools
+Helpful Raspberry Pi Tools and Scripts.
 
 ### Usage
 
-Clone this repository to you Raspberry Pi. Ideally you want to add this directory to your `$PATH` or copy the executables into your `/usr/local/bin` folder.
+To use those scripts just clone the repository to your Raspberry Pi.
+
+
+```
+git clone https://github.com/afritzler/raspberry-pi-tools.git
+```
+
+Ideally you want to add this directory to your `$PATH` or copy the executables into your `/usr/local/bin` folder.
+
+To add the commands to you `PATH` and append it to your `.bashrc` file
+
+```
+cd raspberry-pi-tools
+./utils/add_to_path
+```
 
 ### List of Commands
 
